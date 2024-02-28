@@ -1,0 +1,64 @@
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(42, 42, 42);
+}
+
+canvas{
+    background-color: black;
+}
+
+h1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400!important;
+    color: rgb(148, 0, 0);
+}
+
+.d-none{
+    display: none;
+}
+
+#startscreen{
+    height: 100vh;
+    width: 100vw;
+    background-color: rgb(50, 50, 50);
+ position: absolute;
+    top: 0px;
+    background-image: url(./ENDSCREEN.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#start-btn{
+    z-index: 3;
+    width: 400px;
+    height: 100px;
+    background-color: red;
+    top: 45vh;
+    position: absolute;
+    left: 38vw;
+    border-radius: 10px;
+
+}
+
+#endscreen{
+    height: 100vh;
+    width: 100vw;
+    background-color: rgb(50, 50, 50);
+    position: absolute;
+    top: 0px;
+    background-image: url(./ENDSCREEN.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#game-over-heading{
+    margin-top: 35vh;
+    display: flex;
+    justify-content: center;
+    width: 100vw;
+    font-size: 100px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+   
+}
